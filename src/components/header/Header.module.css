@@ -1,0 +1,35 @@
+.headerWrapper {
+  background-color: #1a1146;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.cv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cvButton {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 2.25rem;
+  padding: 16px;
+  border-radius: 16px;
+}
