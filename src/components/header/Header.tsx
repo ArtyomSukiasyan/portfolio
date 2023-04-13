@@ -1,4 +1,4 @@
-import { TITLE } from "../../constants/config";
+import { CV_LINK, TITLE } from "../../constants/config";
 import SocialLinks from "../social-links/SocialLinks";
 import styles from "./Header.module.css";
 
@@ -10,7 +10,7 @@ export default function Header() {
         <div className={styles.cv}>
           <SocialLinks />
           <a
-            href="#"
+            href={CV_LINK}
             target="_blank"
             className={`btn ${styles.cvButton}`}
             rel="noreferrer"
