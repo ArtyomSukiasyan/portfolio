@@ -1,4 +1,4 @@
-import { CV_LINK, TITLE } from "../../constants/config";
+import { CV_LINK, fullName } from "../../constants/config";
 import SocialLinks from "../social-links/SocialLinks";
 import styles from "./Header.module.css";
 
@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={styles.headerWrapper}>
       <div className={styles.container}>
-        <div className={styles.title}>{TITLE}</div>
+        <div className={styles.title}>{fullName}</div>
         <div className={styles.cv}>
           <SocialLinks />
           <a
