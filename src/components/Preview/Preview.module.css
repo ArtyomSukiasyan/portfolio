@@ -1,0 +1,54 @@
+.content {
+  flex: 1;
+  overflow: hidden;
+  padding: 2rem 1rem;
+}
+.content .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroInfo {
+  max-width: 30rem;
+}
+
+.name::before {
+  content: "✋ Hello, my name is";
+  color: black;
+  display: block;
+  font-weight: bold;
+  font-size: 48px;
+}
+.name {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.skills {
+  padding-top: 12px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.desc {
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.buttonWrapper {
+  margin-top: 24px;
+}
+
+.contactBtn {
+  background-color: #FF8E5E;
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 16px 36px;
+  border-radius: 25px;
+}
