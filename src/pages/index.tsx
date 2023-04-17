@@ -2,6 +2,7 @@ import { descriptionContent, fullName } from "../constants/config";
 import Head from "next/head";
 import Header from "../components/header/Header";
 import Preview from "../components/preview/Preview";
+import About from "../components/about/About";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Header />
       <Preview />
+      <About />
     </>
   );
 }
