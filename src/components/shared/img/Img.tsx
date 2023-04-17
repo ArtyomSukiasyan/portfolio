@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { IImgProps } from "../../../models/imgProps";
 import styles from "./Img.module.css";
 
 export default function Img({
@@ -7,7 +8,7 @@ export default function Img({
   src,
   alt = "",
   className = "",
-}: any) {
+}: IImgProps) {
   return (
     <div className={`${styles.wrapper} ${className}`}>
       <Image width={width} height={height} src={src} alt={alt} />
