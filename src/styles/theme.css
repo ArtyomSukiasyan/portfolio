@@ -1,0 +1,12 @@
+:root {
+    --primary: #FF8E5E;
+    --primary-alpha: #FFC5B2;
+    --white: #FFFFFF;
+    --black: #1D1E22;
+    --blue: #1669B4;
+    --green: #67F5B1;
+    --pink: #FD97CE;
+    --background: #1E1E1E;
+    --dark-background: #19191D;
+    --border-color: rgba(255, 255, 255, 0.05);
+  }
