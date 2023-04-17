@@ -1,4 +1,4 @@
-import { IButtonProps } from "../../models/buttonProps";
+import { IButtonProps } from "../../../models/buttonProps";
 
 export default function Button({ href, className, text }: IButtonProps) {
   return (
