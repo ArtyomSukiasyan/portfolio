@@ -1,11 +1,8 @@
-import React from "react";
+import { IContainerProps } from "../../../models/containerProps";
 
 export default function Container({
   className = "",
   children,
-}: {
-  className: string;
-  children: JSX.Element | JSX.Element[];
-}) {
+}: IContainerProps) {
   return <div className={`${className} container`}>{children}</div>;
 }
