@@ -15,40 +15,51 @@
 
 .name::before {
   content: "✋ Hello, my name is";
-  color: black;
+  color: rgba(255, 255, 255, 0.5);
   display: block;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 1.125rem;
 }
 .name {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
-  line-height: 48px;
+  line-height: 3rem;
 }
 
 .skills {
-  padding-top: 12px;
+  padding-top: 0.625rem;
+  color: var(--primary);
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 2.25rem;
   font-weight: 900;
 }
 
 .desc {
-  padding-top: 16px;
-  font-size: 16px;
+  padding-top: 1rem;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 1.5rem;
 }
 
 .buttonWrapper {
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
 .contactBtn {
-  background-color: #FF8E5E;
-  color: black;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 16px 36px;
-  border-radius: 25px;
+  background-color: var(--primary);
+  color: var(--black);
+}
+
+@media (max-width: 1023px) {
+  .container {
+    align-items: flex-start;
+  }
+
+  .heroInfo {
+    max-width: 100vw;
+  }
+
+  .heroInfo + div {
+    margin-top: 1.25rem;
+  }
 }
