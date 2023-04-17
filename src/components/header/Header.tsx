@@ -1,23 +1,18 @@
-import { CV_LINK, fullName } from "../../constants/config";
+import CVButton from "../CV-button/CV-button";
 import SocialLinks from "../social-links/SocialLinks";
+import Container from "../shared/container/Container";
+import { fullName } from "../../constants/config";
 import styles from "./Header.module.css";
 
 export default function Header() {
   return (
-    <header className={styles.headerWrapper}>
-      <div className={styles.container}>
-        <div className={styles.title}>{fullName}</div>
-        <div className={styles.cv}>
-          <SocialLinks />
-          <a
-            href={CV_LINK}
-            target="_blank"
-            className={`btn ${styles.cvButton}`}
-            rel="noreferrer"
-          >
-            Download CV
-          </a>
-        </div>
+    <header className={styles.header}>
+      <div className={styles.menuWrapper}>
+        <Container className={styles.menu}>
+          <div className={styles.logo}>{fullName}</div>
+          <SocialLinks className={styles.socialLinks} />
+          <CVButton />
+        </Container>
       </div>
     </header>
   );

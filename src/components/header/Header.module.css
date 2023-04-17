@@ -1,35 +1,57 @@
-.headerWrapper {
-  background-color: #1a1146;
-}
-
-.container {
-  width: 100%;
-  max-width: 1440px;
+.header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  color: white;
+  flex-direction: column;
+  background-color: var(--background);
 }
 
-.title {
-  font-size: 32px;
+.menuWrapper {
+  border-bottom: 1px solid var(--border-color);
 }
 
-.cv {
+.logo {
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+.menu {
   display: flex;
-  justify-content: space-between;
+  gap: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   align-items: center;
 }
 
-.cvButton {
-  background-color: transparent;
-  border: 1px solid white;
-  margin-left: 2.25rem;
-  padding: 16px;
-  border-radius: 16px;
+.socialLinks {
+  margin-left: auto;
+}
+
+@media (max-width: 1023px) {
+  .container {
+    align-items: flex-start;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 150px 150px;
+    gap: 1rem;
+  }
+  .socialLinks,
+  .cvButton {
+    margin-left: unset;
+  }
+  .socialLinks {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    grid-template-columns: 1fr;
+  }
+  .socialLinks {
+    justify-content: flex-start;
+  }
+
+  .cvButton {
+    margin-left: unset;
+  }
 }
