@@ -1,0 +1,40 @@
+.tagsTitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 1rem;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 1rem;
+}
+
+.tag::before,
+.tag::after {
+  position: absolute;
+  left: 0;
+  top: calc(50% - 6px);
+  width: 0.75rem;
+  height: 0.75rem;
+  content: "";
+  border-radius: 50%;
+  background-color: var(--primary);
+}
+
+.tag::after {
+  background-color: var(--primary-alpha);
+  left: 0.5rem;
+}
+.tag {
+  position: relative;
+  padding-left: 1.75rem;
+  text-transform: capitalize;
+}
