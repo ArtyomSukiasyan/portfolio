@@ -11,7 +11,13 @@ export default function Img({
 }: IImgProps) {
   return (
     <div className={`${styles.wrapper} ${className}`}>
-      <Image width={width} height={height} src={src} alt={alt} />
+      <Image
+        width={width}
+        height={height}
+        src={src}
+        alt={alt}
+        priority={true}
+      />
     </div>
   );
 }
