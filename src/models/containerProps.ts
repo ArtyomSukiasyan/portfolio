@@ -1,4 +1,4 @@
 export interface IContainerProps {
-  className: string;
+  className?: string;
   children: JSX.Element | JSX.Element[];
 }
