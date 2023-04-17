@@ -1,5 +1,5 @@
 import Button from "../shared/button/Button";
-import SocialLinks from "../social-links/SocialLinks";
+import SocialLinks from "../shared/social-links/SocialLinks";
 import Container from "../shared/container/Container";
 import { CV_LINK, CV_Text, fullName } from "../../constants/config";
 import styles from "./Header.module.css";

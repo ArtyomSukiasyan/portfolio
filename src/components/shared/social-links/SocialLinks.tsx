@@ -1,5 +1,5 @@
-import { SOCIAL_LINKS } from "../../constants/socialLinks";
-import Icon from "../shared/icon/Icon";
+import { SOCIAL_LINKS } from "../../../constants/socialLinks";
+import Icon from "../icon/Icon";
 import styles from "./style.module.css";
 
 export default function SocialLinks({ className = "" }) {
