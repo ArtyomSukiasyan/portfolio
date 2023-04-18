@@ -1,0 +1,124 @@
+.projectsSection {
+  background-color: var(--background);
+  padding: 3.25rem 0;
+}
+
+.sectionTitle {
+  font-weight: 900;
+  text-align: center;
+  font-size: 2.75rem;
+}
+
+.sectionTitle::after {
+  content: "that enchant people";
+  display: block;
+  margin-left: 0.5rem;
+  color: var(--primary);
+}
+
+.projectsWrapper {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.projectItem {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-background);
+  border-radius: 0.75rem;
+}
+
+.roles {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.role {
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: var(--black);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.role[data-role="nextJs"] {
+  background-color: var(--primary);
+}
+
+.role[data-role="React"] {
+  background-color: var(--primary);
+}
+
+.role[data-role="co-founder"] {
+  background-color: var(--white);
+}
+
+.role[data-role="frontend engineer"],
+.role[data-role="graphQL"] {
+  background-color: var(--green);
+}
+
+.role[data-role="laravel"],
+.role[data-role="expressjs"],
+.role[data-role="mongodb"],
+.role[data-role="mysql"] {
+  background-color: var(--pink);
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.875rem 0.75rem;
+  flex: 1;
+}
+
+.projectTitle {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  font-size: 1.325rem;
+}
+
+.projectText {
+  text-align: justify;
+  margin-top: 0.25rem;
+}
+
+.projectFooter {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.siteButton {
+  margin-top: auto;
+  margin-left: auto;
+  background-color: var(--primary);
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.25rem;
+  color: var(--black);
+}
+
+@media (max-width: 1023px) {
+  .sectionTitle {
+    margin: auto;
+  }
+
+  .projectsWrapper {
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .sectionTitle {
+    margin: auto;
+  }
+
+  .projectsWrapper {
+    grid-template: 1fr / 1fr;
+    gap: 1.5rem;
+  }
+}
