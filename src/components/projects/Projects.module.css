@@ -55,16 +55,17 @@
   background-color: var(--white);
 }
 
-
 .role[data-role="JS"] {
   background-color: var(--green);
 }
 
+.role[data-role="HTML"],
+.role[data-role="CSS"] {
+  background-color: var(--white);
+}
 
 .role[data-role="Wordpress"],
-.role[data-role="Firebase"],
-.role[data-role="mongodb"],
-.role[data-role="mysql"] {
+.role[data-role="Firebase"] {
   background-color: var(--pink);
 }
 
@@ -101,7 +102,7 @@
   color: var(--black);
 }
 
-.funProjectTitle{
+.funProjectTitle {
   font-weight: 900;
   text-align: center;
   font-size: 2.75rem;
