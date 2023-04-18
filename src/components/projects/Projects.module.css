@@ -44,25 +44,25 @@
   border-radius: 0.5rem;
 }
 
-.role[data-role="nextJs"] {
+.role[data-role="NextJs"],
+.role[data-role="React"],
+.role[data-role="React Native"] {
   background-color: var(--primary);
 }
 
-.role[data-role="React"] {
-  background-color: var(--primary);
-}
-
-.role[data-role="co-founder"] {
+.role[data-role="founder"],
+.role[data-role="Co-founder"] {
   background-color: var(--white);
 }
 
-.role[data-role="frontend engineer"],
-.role[data-role="graphQL"] {
+
+.role[data-role="JS"] {
   background-color: var(--green);
 }
 
-.role[data-role="laravel"],
-.role[data-role="expressjs"],
+
+.role[data-role="Wordpress"],
+.role[data-role="Firebase"],
 .role[data-role="mongodb"],
 .role[data-role="mysql"] {
   background-color: var(--pink);

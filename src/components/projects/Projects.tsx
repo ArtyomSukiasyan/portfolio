@@ -1,4 +1,4 @@
-import { PROJECTS } from "../../constants/projects";
+import { FUN_PROJECTS, PROJECTS } from "../../constants/projects";
 import { internalProjectsText, visitSite } from "../../constants/projectTexts";
 import Button from "../shared/button/Button";
 import Container from "../shared/container/Container";
@@ -13,6 +13,44 @@ export default function Projects() {
         <h3>{internalProjectsText}</h3>
         <div className={styles.projectsWrapper}>
           {PROJECTS.map((project) => (
+            <div key={project.title} className={styles.projectItem}>
+              <Img
+                src={`/images${project.image}`}
+                width={500}
+                height={500}
+                alt={project.title}
+              />
+              <div className={styles.projectContent}>
+                <div className={styles.roles}>
+                  {project.roles.map((role) => (
+                    <span className={styles.role} data-role={role} key={role}>
+                      {role}
+                    </span>
+                  ))}
+                </div>
+                <h2 className={styles.projectTitle}>{project.title}</h2>
+                <p className={styles.projectText}>{project.text}</p>
+                <div className={styles.projectFooter}>
+                  {project.otherHref && (
+                    <Button
+                      href={project.otherHref}
+                      className={styles.siteButton}
+                      text={project.otherHrefText}
+                    />
+                  )}
+                  <Button
+                    href={project.href}
+                    className={styles.siteButton}
+                    text={visitSite}
+                  />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <h3>Projects for fun</h3>
+        <div className={styles.projectsWrapper}>
+          {FUN_PROJECTS.map((project) => (
             <div key={project.title} className={styles.projectItem}>
               <Img
                 src={`/images${project.image}`}
