@@ -48,7 +48,8 @@ export default function Projects() {
             </div>
           ))}
         </div>
-        <h3>Projects for fun</h3>
+        <h2 className={styles.funProjectTitle}>Projects for fun</h2>
+        <h3>In my free time I create various features and publish them in my Github</h3>
         <div className={styles.projectsWrapper}>
           {FUN_PROJECTS.map((project) => (
             <div key={project.title} className={styles.projectItem}>

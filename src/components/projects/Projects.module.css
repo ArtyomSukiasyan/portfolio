@@ -18,7 +18,7 @@
 
 .projectsWrapper {
   display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  grid-template: 1fr / 1fr 1fr 1fr;
   gap: 1rem;
   margin-top: 2.5rem;
 }
@@ -99,6 +99,14 @@
   padding: 0.5rem 1.25rem;
   border-radius: 0.25rem;
   color: var(--black);
+}
+
+.funProjectTitle{
+  font-weight: 900;
+  text-align: center;
+  font-size: 2.75rem;
+  margin-top: 1rem;
+  color: var(--primary);
 }
 
 @media (max-width: 1023px) {
