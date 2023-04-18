@@ -1,0 +1,30 @@
+.contactSection {
+  background-color: var(--dark-background);
+  padding: 6.25rem 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.sectionTitle {
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  color: var(--primary);
+}
+
+.buttonWrapper {
+  margin-top: 2rem;
+}
+
+.contactButton {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+@media (max-width: 1023px) {
+  .container {
+    align-items: center;
+  }
+}
