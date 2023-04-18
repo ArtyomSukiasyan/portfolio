@@ -26,90 +26,63 @@ export const PROJECTS = [
 export const FUN_PROJECTS = [
   {
     title: "BMW Showroom",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "Tiny site on pure HTML and CSS with small animations. Hover over the logo",
     image: "/bmw-showroom.jpg",
     roles: ["HTML", "CSS"],
     href: "https://bmw-show-room.vercel.app/",
   },
   {
     title: "Caesar Cipher",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "Algorithm with the well-known Caesar Cipher",
     image: "/caesar-cipher.jpg",
     roles: ["HTML", "CSS", "JS"],
     href: "https://caesar-cipher-zeta.vercel.app/",
   },
   {
     title: "Password generator",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "Password generator on pure JavaScript with a choice of length and components",
     image: "/password-generator.jpg",
     roles: ["HTML", "CSS", "JS"],
     href: "https://password-generator-chi-two.vercel.app/",
   },
   {
     title: "Wall Clock",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "Wall clock that works like a real one",
     image: "/Wall-clock.jpg",
-    roles: ["HTML", "CSS"],
+    roles: ["HTML", "CSS", "JS"],
     href: "https://clock-gray.vercel.app/",
   },
   {
     title: "TicTacToe",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "TicTacToe game written in React",
     image: "/TicTacToe.jpg",
-    roles: ["HTML", "CSS"],
+    roles: ["React", "CSS"],
     href: "https://tic-tac-toe-wheat-gamma.vercel.app/",
   },
   {
     title: "Flip Cards",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "Extraordinary flip card for a short biography",
     image: "/Flip-cards.jpg",
     roles: ["HTML", "CSS"],
     href: "https://flip-cards-five.vercel.app/",
   },
   {
     title: "2048",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "The well-known game 2048",
     image: "/2048.jpg",
-    roles: ["HTML", "CSS"],
+    roles: ["React", "CSS"],
     href: "https://2048-peach.vercel.app/",
   },
   {
     title: "Chess",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "Chess game according to all the rules",
     image: "/chess.jpg",
-    roles: ["HTML", "CSS"],
+    roles: ["React", "CSS"],
     href: "https://react-ts-chess-henna.vercel.app/",
   },
   {
-    title: "MineSweeper",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    title: "Minesweeper",
+    text: "Minesweeper according to all the rules",
     image: "/MineSweeper.jpg",
     roles: ["HTML", "CSS"],
     href: "https://minesweeper-rouge-six.vercel.app/",
