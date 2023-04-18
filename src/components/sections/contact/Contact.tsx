@@ -1,7 +1,7 @@
-import { getInTouch } from "../../constants/previewTexts";
-import { linkedinLink } from "../../constants/socialLinks";
-import Button from "../shared/button/Button";
-import Container from "../shared/container/Container";
+import { getInTouch } from "../../../constants/previewTexts";
+import { linkedinLink } from "../../../constants/socialLinks";
+import Button from "../../shared/button/Button";
+import Container from "../../shared/container/Container";
 import styles from "./Contact.module.css";
 
 export default function Contact() {

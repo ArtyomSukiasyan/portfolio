@@ -1,9 +1,9 @@
-import { name } from "../../constants/config";
-import { description, getInTouch, skills } from "../../constants/previewTexts";
-import { linkedinLink } from "../../constants/socialLinks";
-import Button from "../shared/button/Button";
-import Container from "../shared/container/Container";
-import Img from "../shared/img/Img";
+import { name } from "../../../constants/config";
+import { description, getInTouch, skills } from "../../../constants/previewTexts";
+import { linkedinLink } from "../../../constants/socialLinks";
+import Button from "../../shared/button/Button";
+import Container from "../../shared/container/Container";
+import Img from "../../shared/img/Img";
 import styles from "./Preview.module.css";
 
 export default function Preview() {

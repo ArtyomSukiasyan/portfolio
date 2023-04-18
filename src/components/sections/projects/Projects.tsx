@@ -1,8 +1,8 @@
-import { FUN_PROJECTS, PROJECTS } from "../../constants/projects";
-import { internalProjectsText, visitSite } from "../../constants/projectTexts";
-import Button from "../shared/button/Button";
-import Container from "../shared/container/Container";
-import Img from "../shared/img/Img";
+import { FUN_PROJECTS, PROJECTS } from "../../../constants/projects";
+import { internalProjectsText, visitSite } from "../../../constants/projectTexts";
+import Button from "../../shared/button/Button";
+import Container from "../../shared/container/Container";
+import Img from "../../shared/img/Img";
 import styles from "./Projects.module.css";
 
 export default function Projects() {

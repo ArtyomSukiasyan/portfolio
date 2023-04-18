@@ -1,11 +1,11 @@
-import { EDUCATION, WORK } from "../../constants/about";
-import { description } from "../../constants/aboutTexts";
-import { name } from "../../constants/config";
-import AboutItem from "../shared/aboutItem/AboutItem";
-import Container from "../shared/container/Container";
-import Img from "../shared/img/Img";
-import LastTechnologies from "../shared/lastTechnologies/LastTechnologies";
-import SocialLinks from "../shared/social-links/SocialLinks";
+import { EDUCATION, WORK } from "../../../constants/about";
+import { description } from "../../../constants/aboutTexts";
+import { name } from "../../../constants/config";
+import AboutItem from "../../shared/aboutItem/AboutItem";
+import Container from "../../shared/container/Container";
+import Img from "../../shared/img/Img";
+import LastTechnologies from "../../shared/lastTechnologies/LastTechnologies";
+import SocialLinks from "../../shared/social-links/SocialLinks";
 import styles from "./About.module.css";
 
 export default function About() {
