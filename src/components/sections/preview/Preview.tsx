@@ -1,5 +1,9 @@
 import { name } from "../../../constants/config";
-import { description, getInTouch, skills } from "../../../constants/previewTexts";
+import {
+  description,
+  getInTouch,
+  skills,
+} from "../../../constants/previewTexts";
 import { linkedinLink } from "../../../constants/socialLinks";
 import Button from "../../shared/button/Button";
 import Container from "../../shared/container/Container";
@@ -25,7 +29,7 @@ export default function Preview() {
         <Img
           width={534}
           height={534}
-          src="/images/profile_photo.jpg"
+          src="/images/profile_photo.webp"
           alt="profile photo"
         />
       </Container>
