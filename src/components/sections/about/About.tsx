@@ -26,7 +26,7 @@ export default function About() {
           width={565}
           height={387}
           className={styles.aboutItem}
-          src="/images/workspace.png"
+          src="/images/workspace.webp"
           alt="workspace"
         />
         <AboutItem
