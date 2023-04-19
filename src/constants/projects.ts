@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     title: "Chess Arbiter",
     text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who must know the rules to protect their rights.
+      A handbook of chess rules. It can be useful for chess arbiters and chess players, who have to know the rules to protect their rights.
       There is also a mobile app for Android.
       `,
     image: "/arbiter.webp",
@@ -14,7 +14,7 @@ export const PROJECTS = [
   },
   {
     title: "Chess news in Armenia",
-    text: "Chess news from Armenia and the world. Educational and entertainment materials. The website of the Ararat Region Chess Federation is located on the subdomain",
+    text: "Chess news in Armenia and the world. Educational and entertainment materials. The website of the Ararat Region Chess Federation is located on the subdomain",
     image: "/chessNews.webp",
     roles: ["founder", "Wordpress", "JS"],
     href: "https://chessnews.am/",
