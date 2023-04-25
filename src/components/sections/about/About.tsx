@@ -36,7 +36,7 @@ export default function About() {
         />
         <AboutItem
           className={styles.work}
-          type="Professional Experience"
+          type="Work Experience"
           list={WORK}
         />
       </Container>
