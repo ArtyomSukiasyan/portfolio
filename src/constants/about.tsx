@@ -24,4 +24,9 @@ export const WORK: IAboutList[] = [
     role: "JavaScript engineer",
     date: "Since 2021",
   },
+  {
+    title: "Ararat region chess federation",
+    role: "Chess trainer",
+    date: "2017-2021",
+  },
 ];
