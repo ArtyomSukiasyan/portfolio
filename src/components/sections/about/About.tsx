@@ -2,6 +2,7 @@ import { EDUCATION, WORK } from "../../../constants/about";
 import { description } from "../../../constants/aboutTexts";
 import { name } from "../../../constants/config";
 import AboutItem from "../../shared/aboutItem/AboutItem";
+import Button from "../../shared/button/Button";
 import Container from "../../shared/container/Container";
 import Img from "../../shared/img/Img";
 import LastTechnologies from "../../shared/lastTechnologies/LastTechnologies";
@@ -17,6 +18,13 @@ export default function About() {
             <div>
               <h2 className={styles.aboutTitle}>{name}</h2>
               <p className={styles.desc}>{description}</p>
+              <p className={styles.desc}>
+                <Button
+                  href="https://lichess.org/@/artiom1401"
+                  text="I'm in Lichess"
+                  className={styles.lichess}
+                />
+              </p>
               <SocialLinks className={styles.socialLinks} />
             </div>
             <LastTechnologies />
@@ -34,11 +42,7 @@ export default function About() {
           type="Education"
           list={EDUCATION}
         />
-        <AboutItem
-          className={styles.work}
-          type="Work Experience"
-          list={WORK}
-        />
+        <AboutItem className={styles.work} type="Work Experience" list={WORK} />
       </Container>
     </section>
   );

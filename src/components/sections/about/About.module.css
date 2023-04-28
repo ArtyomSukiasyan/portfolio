@@ -35,6 +35,12 @@
   font-weight: 700;
   line-height: 1.5rem;
 }
+
+.lichess {
+  text-decoration: underline;
+  padding: 0;
+}
+
 .socialLinks {
   padding-top: 1rem;
 }
