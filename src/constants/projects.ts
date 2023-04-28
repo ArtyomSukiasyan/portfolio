@@ -1,10 +1,7 @@
 export const PROJECTS = [
   {
     title: "Chess Arbiter",
-    text: ` 
-      A handbook of chess rules. It can be useful for chess arbiters and chess players, who have to know the rules to protect their rights.
-      There is also a mobile app for Android.
-      `,
+    text: "A handbook of chess rules. It can be useful for chess arbiters and chess players, who have to know the rules to protect their rights. There is also a mobile app for Android.",
     image: "/arbiter.webp",
     roles: ["Co-founder", "NextJs", "React Native", "Firebase"],
     href: "https://chessarbiter.info/",

@@ -1,6 +1,7 @@
 import { EDUCATION, WORK } from "../../../constants/about";
-import { description } from "../../../constants/aboutTexts";
+import { description, lichessText } from "../../../constants/aboutTexts";
 import { name } from "../../../constants/config";
+import { lichessLink } from "../../../constants/socialLinks";
 import AboutItem from "../../shared/aboutItem/AboutItem";
 import Button from "../../shared/button/Button";
 import Container from "../../shared/container/Container";
@@ -20,8 +21,8 @@ export default function About() {
               <p className={styles.desc}>{description}</p>
               <p className={styles.desc}>
                 <Button
-                  href="https://lichess.org/@/artiom1401"
-                  text="I'm in Lichess"
+                  href={lichessLink}
+                  text={lichessText}
                   className={styles.lichess}
                 />
               </p>

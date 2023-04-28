@@ -15,6 +15,7 @@
   color: var(--primary);
   margin-right: 0.5rem;
 }
+
 .aboutText {
   display: flex;
   flex-direction: column;
@@ -23,6 +24,7 @@
   max-width: 34.25rem;
   height: 100%;
 }
+
 .aboutTitle {
   font-size: 3rem;
   font-weight: 900;

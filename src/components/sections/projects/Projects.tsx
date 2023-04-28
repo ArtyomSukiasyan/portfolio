@@ -1,5 +1,10 @@
 import { FUN_PROJECTS, PROJECTS } from "../../../constants/projects";
-import { internalProjectsText, visitSite } from "../../../constants/projectTexts";
+import {
+  freeTimeText,
+  githubProjects,
+  internalProjectsText,
+  visitSite,
+} from "../../../constants/projectTexts";
 import Button from "../../shared/button/Button";
 import Container from "../../shared/container/Container";
 import Img from "../../shared/img/Img";
@@ -48,8 +53,8 @@ export default function Projects() {
             </div>
           ))}
         </div>
-        <h2 className={styles.funProjectTitle}>Projects for fun</h2>
-        <h3>In my free time I create various features and publish them in my Github</h3>
+        <h2 className={styles.funProjectTitle}>{githubProjects}</h2>
+        <h3>{freeTimeText}</h3>
         <div className={styles.projectsWrapper}>
           {FUN_PROJECTS.map((project) => (
             <div key={project.title} className={styles.projectItem}>

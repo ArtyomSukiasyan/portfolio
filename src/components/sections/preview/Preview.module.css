@@ -3,6 +3,7 @@
   overflow: hidden;
   padding: 2rem 1rem;
 }
+
 .content .container {
   display: flex;
   justify-content: space-between;
@@ -20,6 +21,7 @@
   font-weight: bold;
   font-size: 1.125rem;
 }
+
 .name {
   font-size: 3rem;
   font-weight: 900;

@@ -1,6 +1,6 @@
 import { SOCIAL_LINKS } from "../../../constants/socialLinks";
 import Icon from "../icon/Icon";
-import styles from "./style.module.css";
+import styles from "./SocialLinks.module.css";
 
 export default function SocialLinks({ className = "" }) {
   return (
