@@ -9,6 +9,6 @@ export const lastTechnologies = [
   },
   {
     title: "Backend",
-    skills: ["Node/Express", "SQL", "MongoDB", "Firebase", "Docker", "Swagger"],
+    skills: ["Node/Express", "SQL", "MongoDB", "Firebase", "Docker", "Swagger", "Strapi"],
   },
 ];
