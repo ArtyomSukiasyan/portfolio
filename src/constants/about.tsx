@@ -23,15 +23,18 @@ export const WORK: IAboutList[] = [
     title: "Devs Software Design",
     role: "JavaScript engineer",
     date: "Since 2023",
+    link: "devs.ae",
   },
   {
     title: "The Software Development Company",
     role: "JavaScript engineer",
     date: "2021-2023",
+    link: "sdc.am",
   },
   {
     title: "Ararat region chess federation",
     role: "Chess trainer",
     date: "2017-2021",
+    link: "ararat.chessnews.am",
   },
 ];
