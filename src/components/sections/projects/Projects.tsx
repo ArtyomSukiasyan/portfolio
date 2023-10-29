@@ -3,6 +3,7 @@ import {
   freeTimeText,
   githubProjects,
   internalProjectsText,
+  sourceCode,
   visitSite,
 } from "../../../constants/projectTexts";
 import Button from "../../shared/button/Button";
@@ -75,6 +76,11 @@ export default function Projects() {
                 <h2 className={styles.projectTitle}>{project.title}</h2>
                 <p className={styles.projectText}>{project.text}</p>
                 <div className={styles.projectFooter}>
+                  <Button
+                    href={project.githubLink}
+                    className={styles.siteButton}
+                    text={sourceCode}
+                  />
                   <Button
                     href={project.href}
                     className={styles.siteButton}
