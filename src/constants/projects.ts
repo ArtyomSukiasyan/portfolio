@@ -27,6 +27,23 @@ export const FUN_PROJECTS = [
     image: "/chess.webp",
     roles: ["React", "CSS"],
     href: "https://react-ts-chess-henna.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/react-ts-chess",
+  },
+  {
+    title: "Chess Engine",
+    text: "Simple chess game with my bot",
+    image: "/Chess-Engine.webp",
+    roles: ["React", "CSS"],
+    href: "https://chess-engine-green.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/Chess-engine",
+  },
+  {
+    title: "Rock-Paper-Scissors Engine",
+    text: "Simple Rock-Paper-Scissors game with my bot",
+    image: "/rock-paper-scissors.webp",
+    roles: ["React", "CSS"],
+    href: "https://rock-paper-scissors-eight-rose.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/rock-paper-scissors",
   },
   {
     title: "TicTacToe",
@@ -34,6 +51,15 @@ export const FUN_PROJECTS = [
     image: "/TicTacToe.webp",
     roles: ["React", "CSS"],
     href: "https://tic-tac-toe-wheat-gamma.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/TicTacToe",
+  },
+  {
+    title: "TicTacToe Engine",
+    text: "TicTacToe game with choice of side and difficulty",
+    image: "/tic-tac-toe-engine.webp",
+    roles: ["React", "CSS"],
+    href: "https://tic-tac-toe-engine.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/TicTacToe-Engine",
   },
   {
     title: "2048",
@@ -41,6 +67,7 @@ export const FUN_PROJECTS = [
     image: "/2048.webp",
     roles: ["React", "CSS"],
     href: "https://2048-peach.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/2048",
   },
   {
     title: "Minesweeper",
@@ -48,6 +75,7 @@ export const FUN_PROJECTS = [
     image: "/MineSweeper.webp",
     roles: ["HTML", "CSS"],
     href: "https://minesweeper-rouge-six.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/minesweeper",
   },
   {
     title: "BMW Showroom",
@@ -55,13 +83,7 @@ export const FUN_PROJECTS = [
     image: "/bmw-showroom.webp",
     roles: ["HTML", "CSS"],
     href: "https://bmw-show-room.vercel.app/",
-  },
-  {
-    title: "Password generator",
-    text: "Password generator on pure JavaScript with a choice of length and components",
-    image: "/password-generator.webp",
-    roles: ["HTML", "CSS", "JS"],
-    href: "https://password-generator-chi-two.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/BMW-showRoom",
   },
   {
     title: "Flip Cards",
@@ -69,6 +91,7 @@ export const FUN_PROJECTS = [
     image: "/Flip-cards.webp",
     roles: ["HTML", "CSS"],
     href: "https://flip-cards-five.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/flip-cards",
   },
   {
     title: "Wall Clock",
@@ -76,12 +99,14 @@ export const FUN_PROJECTS = [
     image: "/Wall-clock.webp",
     roles: ["HTML", "CSS", "JS"],
     href: "https://clock-gray.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/Clock",
   },
   {
-    title: "Caesar Cipher",
-    text: "Algorithm with the well-known Caesar Cipher",
-    image: "/caesar-cipher.webp",
+    title: "Password generator",
+    text: "Password generator on pure JavaScript with a choice of length and components",
+    image: "/password-generator.webp",
     roles: ["HTML", "CSS", "JS"],
-    href: "https://caesar-cipher-zeta.vercel.app/",
+    href: "https://password-generator-chi-two.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/Password-Generator",
   },
 ];
