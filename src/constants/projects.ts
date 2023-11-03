@@ -38,6 +38,14 @@ export const FUN_PROJECTS = [
     githubLink: "https://github.com/ArtyomSukiasyan/Chess-engine",
   },
   {
+    title: "Chess Clock",
+    text: "Simple chess clock with choice of time and increment",
+    image: "/Chess-clock.webp",
+    roles: ["React", "CSS"],
+    href: "https://chess-clock-amber.vercel.app/",
+    githubLink: "https://github.com/ArtyomSukiasyan/Chess-clock",
+  },
+  {
     title: "Rock-Paper-Scissors Engine",
     text: "Simple Rock-Paper-Scissors game with my bot",
     image: "/rock-paper-scissors.webp",
