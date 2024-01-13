@@ -4,4 +4,5 @@ export interface IImgProps {
   src: string;
   alt?: string;
   className?: string;
+  priority?: boolean;
 }

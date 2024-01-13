@@ -31,6 +31,7 @@ export default function Preview() {
           height={534}
           src="/images/profile_photo.webp"
           alt="profile photo"
+          priority={true}
         />
       </Container>
     </div>

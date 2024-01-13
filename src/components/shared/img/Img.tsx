@@ -8,6 +8,7 @@ export default function Img({
   src,
   alt = "",
   className = "",
+  priority = false,
 }: IImgProps) {
   return (
     <div className={`${styles.wrapper} ${className}`}>
@@ -16,7 +17,7 @@ export default function Img({
         height={height}
         src={src}
         alt={alt}
-        priority={true}
+        priority={priority}
       />
     </div>
   );
