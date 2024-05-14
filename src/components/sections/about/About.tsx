@@ -8,6 +8,7 @@ import Container from "../../shared/container/Container";
 import Img from "../../shared/img/Img";
 import LastTechnologies from "../../shared/lastTechnologies/LastTechnologies";
 import SocialLinks from "../../shared/social-links/SocialLinks";
+import workSpacePhoto from "../../../../public/images/workspace.webp";
 import styles from "./About.module.css";
 
 export default function About() {
@@ -32,10 +33,8 @@ export default function About() {
           </div>
         </div>
         <Img
-          width={565}
-          height={387}
           className={styles.aboutItem}
-          src="/images/workspace.webp"
+          src={workSpacePhoto}
           alt="workspace"
         />
         <AboutItem

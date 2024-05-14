@@ -8,6 +8,7 @@ import { linkedinLink } from "../../../constants/socialLinks";
 import Button from "../../shared/button/Button";
 import Container from "../../shared/container/Container";
 import Img from "../../shared/img/Img";
+import profilePhoto from "../../../../public/images/profile_photo.webp"
 import styles from "./Preview.module.css";
 
 export default function Preview() {
@@ -27,9 +28,7 @@ export default function Preview() {
           </div>
         </div>
         <Img
-          width={534}
-          height={534}
-          src="/images/profile_photo.webp"
+          src={profilePhoto}
           alt="profile photo"
           priority={true}
         />

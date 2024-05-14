@@ -3,8 +3,6 @@ import { IImgProps } from "../../../models/imgProps";
 import styles from "./Img.module.css";
 
 export default function Img({
-  width,
-  height,
   src,
   alt = "",
   className = "",
@@ -12,13 +10,7 @@ export default function Img({
 }: IImgProps) {
   return (
     <div className={`${styles.wrapper} ${className}`}>
-      <Image
-        width={width}
-        height={height}
-        src={src}
-        alt={alt}
-        priority={priority}
-      />
+      <Image src={src} alt={alt} priority={priority} />
     </div>
   );
 }

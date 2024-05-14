@@ -20,12 +20,7 @@ export default function Projects() {
         <div className={styles.projectsWrapper}>
           {PROJECTS.map((project) => (
             <div key={project.title} className={styles.projectItem}>
-              <Img
-                src={`/images${project.image}`}
-                width={500}
-                height={500}
-                alt={project.title}
-              />
+              <Img src={project.image} alt={project.title} />
               <div className={styles.projectContent}>
                 <div className={styles.roles}>
                   {project.roles.map((role) => (
@@ -59,12 +54,7 @@ export default function Projects() {
         <div className={styles.projectsWrapper}>
           {FUN_PROJECTS.map((project) => (
             <div key={project.title} className={styles.projectItem}>
-              <Img
-                src={`/images${project.image}`}
-                width={500}
-                height={500}
-                alt={project.title}
-              />
+              <Img src={project.image} alt={project.title} />
               <div className={styles.projectContent}>
                 <div className={styles.roles}>
                   {project.roles.map((role) => (
