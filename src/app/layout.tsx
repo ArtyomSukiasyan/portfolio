@@ -1,8 +1,16 @@
-import { descriptionContent, fullName } from "../constants/config";
+import { descriptionContent, domain, fullName } from "../constants/config";
 
 export const metadata = {
   title: fullName,
   description: descriptionContent,
+  openGraph: {
+    title: `${fullName} portfolio`,
+    description: descriptionContent,
+    metadataBase: new URL(domain),
+    openGraph: {
+      images: "/favicon.png",
+    },
+  },
 };
 
 export default function RootLayout({
