@@ -1,23 +1,23 @@
-import arbiterPhoto from "../../public/images/arbiter.webp";
-import chessNewsPhoto from "../../public/images/chessNews.webp";
-import chessPhoto from "../../public/images/chess.webp";
-import chessEnginePhoto from "../../public/images/Chess-Engine.webp";
-import chessClockPhoto from "../../public/images/Chess-clock.webp";
-import rockPaperScissorsPhoto from "../../public/images/rock-paper-scissors.webp";
-import ticTacToePhoto from "../../public/images/TicTacToe.webp";
-import ticTacToeEnginePhoto from "../../public/images/tic-tac-toe-engine.webp";
-import game2048Photo from "../../public/images/2048.webp";
-import bmwShowroomPhoto from "../../public/images/bmw-showroom.webp";
-import flipCardsPhoto from "../../public/images/Flip-cards.webp";
-import wallClockPhoto from "../../public/images/Wall-clock.webp";
-import passwordGeneratorPhoto from "../../public/images/password-generator.webp";
-import mineSweeperPhoto from "../../public/images/MineSweeper.webp";
+import arbiterImg from "../../public/images/arbiter.webp";
+import chessNewsImg from "../../public/images/chessNews.webp";
+import chessImg from "../../public/images/chess.webp";
+import chessEngineImg from "../../public/images/Chess-Engine.webp";
+import chessClockImg from "../../public/images/Chess-clock.webp";
+import rockPaperScissorsImg from "../../public/images/rock-paper-scissors.webp";
+import ticTacToeImg from "../../public/images/TicTacToe.webp";
+import ticTacToeEngineImg from "../../public/images/tic-tac-toe-engine.webp";
+import game2048Img from "../../public/images/2048.webp";
+import bmwShowroomImg from "../../public/images/bmw-showroom.webp";
+import flipCardsImg from "../../public/images/Flip-cards.webp";
+import wallClockImg from "../../public/images/Wall-clock.webp";
+import passwordGeneratorImg from "../../public/images/password-generator.webp";
+import mineSweeperImg from "../../public/images/MineSweeper.webp";
 
 export const PROJECTS = [
   {
     title: "Chess Arbiter",
     text: "A handbook of chess rules. It can be useful for chess arbiters and chess players, who have to know the rules to protect their rights. There is also a mobile app for Android.",
-    image: arbiterPhoto,
+    image: arbiterImg,
     roles: ["Co-founder", "NextJs", "React Native", "Firebase"],
     href: "https://chessarbiter.info/",
     otherHref:
@@ -27,7 +27,7 @@ export const PROJECTS = [
   {
     title: "Chess news in Armenia",
     text: "Chess news in Armenia and the world. Educational and entertainment materials. The website of the Ararat Region Chess Federation is located on the subdomain",
-    image: chessNewsPhoto,
+    image: chessNewsImg,
     roles: ["founder", "Wordpress", "JS"],
     href: "https://chessnews.am/",
     otherHref: "https://ararat.chessnews.am/",
@@ -39,7 +39,7 @@ export const FUN_PROJECTS = [
   {
     title: "Chess",
     text: "Chess game according to all the rules",
-    image: chessPhoto,
+    image: chessImg,
     roles: ["React", "CSS"],
     href: "https://react-ts-chess-henna.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/react-ts-chess",
@@ -47,7 +47,7 @@ export const FUN_PROJECTS = [
   {
     title: "Chess Engine",
     text: "Simple chess game with my bot",
-    image: chessEnginePhoto,
+    image: chessEngineImg,
     roles: ["React", "CSS"],
     href: "https://chess-engine-green.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/Chess-engine",
@@ -55,7 +55,7 @@ export const FUN_PROJECTS = [
   {
     title: "Chess Clock",
     text: "Simple chess clock with choice of time and increment",
-    image: chessClockPhoto,
+    image: chessClockImg,
     roles: ["React", "CSS"],
     href: "https://chess-clock-amber.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/Chess-clock",
@@ -63,7 +63,7 @@ export const FUN_PROJECTS = [
   {
     title: "Rock-Paper-Scissors Engine",
     text: "Simple Rock-Paper-Scissors game with my bot",
-    image: rockPaperScissorsPhoto,
+    image: rockPaperScissorsImg,
     roles: ["React", "CSS"],
     href: "https://rock-paper-scissors-eight-rose.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/rock-paper-scissors",
@@ -71,7 +71,7 @@ export const FUN_PROJECTS = [
   {
     title: "TicTacToe",
     text: "TicTacToe game written in React",
-    image: ticTacToePhoto,
+    image: ticTacToeImg,
     roles: ["React", "CSS"],
     href: "https://tic-tac-toe-wheat-gamma.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/TicTacToe",
@@ -79,7 +79,7 @@ export const FUN_PROJECTS = [
   {
     title: "TicTacToe Engine",
     text: "TicTacToe game with choice of side and difficulty",
-    image: ticTacToeEnginePhoto,
+    image: ticTacToeEngineImg,
     roles: ["React", "CSS"],
     href: "https://tic-tac-toe-engine.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/TicTacToe-Engine",
@@ -87,7 +87,7 @@ export const FUN_PROJECTS = [
   {
     title: "2048",
     text: "The well-known game 2048",
-    image: game2048Photo,
+    image: game2048Img,
     roles: ["React", "CSS"],
     href: "https://2048-peach.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/2048",
@@ -95,7 +95,7 @@ export const FUN_PROJECTS = [
   {
     title: "Minesweeper",
     text: "Minesweeper according to all the rules",
-    image: mineSweeperPhoto,
+    image: mineSweeperImg,
     roles: ["HTML", "CSS"],
     href: "https://minesweeper-rouge-six.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/minesweeper",
@@ -103,7 +103,7 @@ export const FUN_PROJECTS = [
   {
     title: "BMW Showroom",
     text: "Tiny site on pure HTML and CSS with small animations. Hover over the logo",
-    image: bmwShowroomPhoto,
+    image: bmwShowroomImg,
     roles: ["HTML", "CSS"],
     href: "https://bmw-show-room.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/BMW-showRoom",
@@ -111,7 +111,7 @@ export const FUN_PROJECTS = [
   {
     title: "Flip Cards",
     text: "Extraordinary flip card for a short biography",
-    image: flipCardsPhoto,
+    image: flipCardsImg,
     roles: ["HTML", "CSS"],
     href: "https://flip-cards-five.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/flip-cards",
@@ -119,7 +119,7 @@ export const FUN_PROJECTS = [
   {
     title: "Wall Clock",
     text: "Wall clock that works like a real one",
-    image: wallClockPhoto,
+    image: wallClockImg,
     roles: ["HTML", "CSS", "JS"],
     href: "https://clock-gray.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/Clock",
@@ -127,7 +127,7 @@ export const FUN_PROJECTS = [
   {
     title: "Password generator",
     text: "Password generator on pure JavaScript with a choice of length and components",
-    image: passwordGeneratorPhoto,
+    image: passwordGeneratorImg,
     roles: ["HTML", "CSS", "JS"],
     href: "https://password-generator-chi-two.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/Password-Generator",
