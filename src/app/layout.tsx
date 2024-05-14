@@ -1,4 +1,6 @@
 import { descriptionContent, domain, fullName } from "../constants/config";
+import "../styles/globals.css";
+import "../styles/theme.css";
 
 export const metadata = {
   title: fullName,

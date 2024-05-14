@@ -3,8 +3,6 @@ import Preview from "../components/sections/preview/Preview";
 import About from "../components/sections/about/About";
 import Projects from "../components/sections/projects/Projects";
 import Contact from "../components/sections/contact/Contact";
-import "../styles/globals.css";
-import "../styles/theme.css";
 
 export default function Home() {
   return (
