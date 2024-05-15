@@ -9,13 +9,6 @@
   font-size: 2.75rem;
 }
 
-.sectionTitle::after {
-  content: "that enchant people";
-  display: block;
-  margin-left: 0.5rem;
-  color: var(--primary);
-}
-
 .projectsWrapper {
   display: grid;
   grid-template: 1fr / 1fr 1fr 1fr;
@@ -50,11 +43,13 @@
   background-color: var(--primary);
 }
 
-.role[data-role="founder"],
-.role[data-role="Co-founder"] {
+.role[data-role="Docker"],
+.role[data-role="Nginx"] {
   background-color: var(--white);
 }
 
+.role[data-role="Strapi (Koa + React)"],
+.role[data-role="Koa"],
 .role[data-role="JS"] {
   background-color: var(--green);
 }
@@ -64,8 +59,8 @@
   background-color: var(--white);
 }
 
-.role[data-role="Wordpress"],
-.role[data-role="Firebase"] {
+.role[data-role="Firebase"],
+.role[data-role="Mongo"] {
   background-color: var(--pink);
 }
 
