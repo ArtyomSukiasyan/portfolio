@@ -41,11 +41,13 @@ export default function Projects() {
           ))}
         </div>
       </Container>
-      <Button
-        href={github}
-        className={styles.siteButton}
-        text="More in my Github"
-      />
+      <div className={styles.moreButtonWrapper}>
+        <Button
+          href={github}
+          className={styles.moreButton}
+          text="More in my Github"
+        />
+      </div>
     </section>
   );
 }
