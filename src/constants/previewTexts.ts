@@ -1,7 +1,6 @@
-export const skills = "I'm a JavaScript FullStack engineer";
+export const skills = "I'm a JavaScript engineer";
 
-export const description = `Hard-working web developer with a keen interest in education. I spend an average of 14 hours a day on programming.
-I always try to create clean and reusable codes which are easy to use. They help to make new 
-features, find and fix bugs faster.`;
+export const description =
+  "Hard-working web developer with a keen interest in education. Former professional chess player and trainer. Have 3.5 years of experience working with children as chess trainer. Fan of my work.";
 
 export const getInTouch = "Get in touch";
