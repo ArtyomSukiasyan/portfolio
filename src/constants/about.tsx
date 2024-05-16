@@ -21,13 +21,13 @@ export const EDUCATION: IAboutList[] = [
 export const WORK: IAboutList[] = [
   {
     title: "Devs Software Design",
-    role: "JavaScript engineer",
+    role: "JavaScript engineer (remote)",
     date: "Since 2023",
     link: "devs.ae",
   },
   {
     title: "The Software Development Company",
-    role: "JavaScript engineer",
+    role: "JavaScript engineer (remote)",
     date: "2021-2023",
     link: "sdc.am",
   },
