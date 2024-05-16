@@ -13,7 +13,7 @@ import { IProject } from "../models/project";
 export const JOB_PROJECTS: IProject[] = [
   {
     title: "The SDC website with admin panel",
-    text: "The website of The Software Development Company.I didn't do it from the zero , I maintained it for a long time and added new features",
+    text: "The website of The Software Development Company. Maintained it for a long time and added new features",
     image: sdcImg,
     roles: ["NextJs", "React", "Koa", "Mongo", "Docker"],
     href: "https://sdc.am",
@@ -39,7 +39,7 @@ export const OPEN_SOURCE_PROJECTS: IProject[] = [
   },
   {
     title: "Ararat region chess federation official website",
-    text: "The official open source website of the Ararat region chess federation.",
+    text: "The official open source website of the Ararat region chess federation. History of the federation, list of trainers, branches, news and much more.",
     image: araratRegionImg,
     roles: ["Strapi (Koa + React)", "NextJs", "Docker", "Nginx"],
     href: "https://ararat.chessnews.am/",
