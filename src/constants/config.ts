@@ -5,4 +5,4 @@ export const descriptionContent = `Portfolio site about Fullstack JS developer $
 export const CV_LINK = "/files/Artyom_Sukiasyan_JS_Engineer_CV.pdf";
 export const CV_Text = "My CV";
 export const domain = "https://devchessplayer.com";
-export const github = "https://github.com/ArtyomSukiasyan?tab=repositories"
+export const githubLink = "https://github.com/ArtyomSukiasyan?tab=repositories"

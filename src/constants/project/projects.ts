@@ -1,14 +1,14 @@
-import arbiterImg from "../../public/images/arbiter.webp";
-import arbiterMobileImg from "../../public/images/arbiterMobile.webp";
-import araratRegionImg from "../../public/images/araratRegion.webp";
-import chessImg from "../../public/images/chess.webp";
-import chessEngineImg from "../../public/images/Chess-Engine.webp";
-import chessClockImg from "../../public/images/Chess-clock.webp";
-import ticTacToeEngineImg from "../../public/images/tic-tac-toe-engine.webp";
-import game2048Img from "../../public/images/2048.webp";
-import mineSweeperImg from "../../public/images/MineSweeper.webp";
-import sdcImg from "../../public/images/sdc.webp";
-import { IProject } from "../models/project";
+import arbiterImg from "../../../public/images/arbiter.webp";
+import arbiterMobileImg from "../../../public/images/arbiterMobile.webp";
+import araratRegionImg from "../../../public/images/araratRegion.webp";
+import chessImg from "../../../public/images/chess.webp";
+import chessEngineImg from "../../../public/images/Chess-Engine.webp";
+import chessClockImg from "../../../public/images/Chess-clock.webp";
+import ticTacToeEngineImg from "../../../public/images/tic-tac-toe-engine.webp";
+import game2048Img from "../../../public/images/2048.webp";
+import mineSweeperImg from "../../../public/images/MineSweeper.webp";
+import sdcImg from "../../../public/images/sdc.webp";
+import { IProject } from "../../models/project";
 
 export const JOB_PROJECTS: IProject[] = [
   {

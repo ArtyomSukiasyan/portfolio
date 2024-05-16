@@ -1,4 +1,4 @@
-import { sourceCode, visitSite } from "../../../constants/projectTexts";
+import { sourceCode, visitSite } from "../../../constants/project/projectTexts";
 import { IProject } from "../../../models/project";
 import Button from "../../shared/button/Button";
 import Img from "../../shared/img/Img";
