@@ -29,11 +29,11 @@ export const OPEN_SOURCE_PROJECTS: IProject[] = [
     githubLink: "https://github.com/Chess-Arbiter/handbook",
   },
   {
-    title: "Chess arbiter mobile app",
+    title: "Chess arbiter mobile app (currently is testing)",
     text: "An open source multi language mobile app of chess rules. Here you'll find everything you need to know about playing chess, laid out in simple, easy-to-understand language. You can create your own tournaments and count rating changes",
     image: arbiterMobileImg,
     roles: ["React Native", "Firebase"],
-    href: "",
+    href: "https://play.google.com/store/apps/details?id=com.chess_arbiter.chessarbitermobile",
     githubLink: "https://github.com/Chess-Arbiter/mobile",
   },
   {
