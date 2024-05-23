@@ -3,7 +3,6 @@ import arbiterMobileImg from "../../../public/images/arbiterMobile.webp";
 import araratRegionImg from "../../../public/images/araratRegion.webp";
 import chessImg from "../../../public/images/chess.webp";
 import chessEngineImg from "../../../public/images/Chess-Engine.webp";
-import chessClockImg from "../../../public/images/Chess-clock.webp";
 import ticTacToeEngineImg from "../../../public/images/tic-tac-toe-engine.webp";
 import game2048Img from "../../../public/images/2048.webp";
 import mineSweeperImg from "../../../public/images/MineSweeper.webp";
@@ -63,14 +62,6 @@ export const FUN_PROJECTS: IProject[] = [
     roles: ["React", "CSS"],
     href: "https://chess-engine-green.vercel.app/",
     githubLink: "https://github.com/ArtyomSukiasyan/Chess-engine",
-  },
-  {
-    title: "Chess Clock",
-    text: "Simple chess clock with choice of time and increment",
-    image: chessClockImg,
-    roles: ["React", "CSS"],
-    href: "https://chess-clock-amber.vercel.app/",
-    githubLink: "https://github.com/ArtyomSukiasyan/Chess-clock",
   },
   {
     title: "TicTacToe Engine",
