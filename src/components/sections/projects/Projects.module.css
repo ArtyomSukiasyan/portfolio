@@ -65,7 +65,8 @@
 }
 
 .role[data-role="Firebase"],
-.role[data-role="Mongo"] {
+.role[data-role="Mongo"],
+.role[data-role="MySQL"] {
   background-color: var(--pink);
 }
 
