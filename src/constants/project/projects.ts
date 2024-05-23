@@ -12,7 +12,7 @@ import { IProject } from "../../models/project";
 export const JOB_PROJECTS: IProject[] = [
   {
     title: "The SDC website with admin panel",
-    text: "The website of The Software Development Company. Maintained it for a long time and added new features",
+    text: "The website of The Software Development Company with admin panel. Maintained it for a long time and added new features",
     image: sdcImg,
     roles: ["NextJs", "React", "Koa", "Mongo", "Docker"],
     href: "https://sdc.am",
