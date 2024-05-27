@@ -8,7 +8,7 @@ export default function AboutItem({ type, list, className }: IAboutItemProps) {
       <h2 className={`${styles.experienceType} ${className}`}>{type}</h2>
       <div className={styles.experienceList}>
         {list.map(({ title, date, role, link }) => (
-          <div key={date} className={styles.experienceItem}>
+          <div key={`${title}${date}`} className={styles.experienceItem}>
             <div className={styles.experienceTitle}>
               {title} <Link link={link} />
             </div>
