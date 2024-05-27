@@ -10,8 +10,8 @@ export default function Project({ project }: { project: IProject }) {
       <Img src={project.image} alt={project.title} />
       <div className={styles.projectContent}>
         <div className={styles.roles}>
-          {project.roles.map((role) => (
-            <span className={styles.role} data-role={role} key={role}>
+          {project.roles.map((role, idx) => (
+            <span className={styles.role} data-role={role} key={idx}>
               {role}
             </span>
           ))}
