@@ -4,7 +4,9 @@ import {
   freeTimeText,
   githubProjects,
   jobProjectsDescription,
+  liveProjects,
   openSourceProjects,
+  workProjects,
 } from "./projectTexts";
 
 interface IProjectData {
@@ -15,12 +17,12 @@ interface IProjectData {
 
 export const projectList: IProjectData[] = [
   {
-    title: "My work projects",
+    title: workProjects,
     description: jobProjectsDescription,
     list: JOB_PROJECTS,
   },
   {
-    title: "My open source live projects",
+    title: liveProjects,
     description: openSourceProjects,
     list: OPEN_SOURCE_PROJECTS,
   },

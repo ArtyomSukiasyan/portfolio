@@ -2,9 +2,14 @@ export const visitSite = "Visit Website";
 
 export const sourceCode = "Source code";
 
-export const openSourceProjects = "As a fan of programming and a big chess lover, I have created several useful open source projects";
+export const openSourceProjects =
+  "As a fan of programming and a big chess lover, I have created several useful open source projects";
 
-export const githubProjects = "My Fun projects on Github";
+export const workProjects = "My work projects";
+
+export const liveProjects = "Open source live projects";
+
+export const githubProjects = "Open source fun projects";
 
 export const freeTimeText =
   "In my free time I create various features and publish them in my Github. Below you can see some of my projects.";

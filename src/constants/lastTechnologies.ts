@@ -1,14 +1,15 @@
 export const lastTechnologies = [
   {
-    title: "Basic",
-    skills: ["HTML", "CSS", "JavaScript", "TypeScript", "Git"],
-  },
-  {
-    title: "Frontend",
-    skills: ["ReactJS", "NextJS", "Angular", "SCSS", "Material", "Tauri"],
-  },
-  {
-    title: "Backend",
-    skills: ["Node/Express", "SQL", "MongoDB", "Firebase", "Docker", "Swagger", "Strapi"],
+    skills: [
+      "JS/TS",
+      "Node/Express/Koa",
+      "SQL/NoSQL/Elastic",
+      "Docker/Swagger/Nginx",
+      "Stripe/Payment",
+      "Unit Testing",
+      "React/Next",
+      "HTML/CSS/SCSS",
+      "Git",
+    ],
   },
 ];

@@ -2,7 +2,7 @@ import { name } from "../../../constants/config";
 import {
   description,
   getInTouch,
-  skills,
+  introduce,
 } from "../../../constants/previewTexts";
 import { linkedinLink } from "../../../constants/socialLinks";
 import Button from "../../shared/button/Button";
@@ -17,7 +17,7 @@ export default function Preview() {
       <Container className={styles.container}>
         <div className={styles.heroInfo}>
           <h2 className={styles.name}>{name}</h2>
-          <h2 className={styles.skills}>{skills}</h2>
+          <h2 className={styles.skills}>{introduce}</h2>
           <p className={styles.desc}>{description}</p>
           <div className={styles.buttonWrapper}>
             <Button

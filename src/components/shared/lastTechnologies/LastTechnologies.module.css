@@ -1,6 +1,7 @@
 .tagsTitle {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .skills {
@@ -12,8 +13,9 @@
 
 .tags {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2rem;
   padding-top: 1rem;
 }
 
