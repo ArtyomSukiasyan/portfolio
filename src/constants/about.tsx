@@ -20,6 +20,11 @@ export const EDUCATION: IAboutList[] = [
 
 export const WORK: IAboutList[] = [
   {
+    title: "Powered by Love",
+    role: "JavaScript engineer (remote, part-time)",
+    date: "Since 2023",
+  },
+  {
     title: "Devs Software Design",
     role: "JavaScript engineer (remote)",
     date: "Since 2023",
@@ -35,6 +40,5 @@ export const WORK: IAboutList[] = [
     title: "Ararat region chess federation",
     role: "Chess trainer",
     date: "2017-2021",
-    link: "ararat.chessnews.am",
   },
 ];
