@@ -53,8 +53,14 @@
   background-color: var(--white);
 }
 
+.role[data-role="Stripe"],
+.role[data-role="Unit testing"] {
+  background-color: var(--blue);
+}
+
 .role[data-role="Strapi (Koa + React)"],
 .role[data-role="Koa"],
+.role[data-role="Express"],
 .role[data-role="JS"] {
   background-color: var(--green);
 }

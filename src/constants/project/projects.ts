@@ -7,6 +7,7 @@ import ticTacToeEngineImg from "../../../public/images/tic-tac-toe-engine.webp";
 import game2048Img from "../../../public/images/2048.webp";
 import mineSweeperImg from "../../../public/images/MineSweeper.webp";
 import sdcImg from "../../../public/images/sdc.webp";
+import getSmsImg from "../../../public/images/getSMS.webp";
 import { IProject } from "../../models/project";
 
 export const JOB_PROJECTS: IProject[] = [
@@ -16,6 +17,21 @@ export const JOB_PROJECTS: IProject[] = [
     image: sdcImg,
     roles: ["NextJs", "React", "Koa", "Mongo", "Docker"],
     href: "https://sdc.am",
+  },
+  {
+    title: "Get SMS",
+    text: "Rent a virtual phone number from US to receive unlimited OTP/SMS",
+    image: getSmsImg,
+    roles: [
+      "Express",
+      "React",
+      "Mongo",
+      "Docker",
+      "Nginx",
+      "Stripe",
+      "Unit testing",
+    ],
+    href: "https://get-sms.app",
   },
 ];
 
