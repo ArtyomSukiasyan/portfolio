@@ -1,4 +1,4 @@
-import React from "react";
+import { JSX } from "react";
 
 const Icon = ({ path }: { path: string }): JSX.Element => {
   return (
