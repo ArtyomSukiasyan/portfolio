@@ -1,8 +1,8 @@
-export const introduce = "I'm a JavaScript engineer";
-
 export const description =
-  "Experienced hard-working web developer with a keen interest in education. Former professional chess player and trainer. Have 3.5 years of experience working with children as chess trainer. Fan of my work.";
+  "I'm a software engineer passionate about education, problem-solving and open source. My background as a professional chess player taught me to think analytically and find optimal solutions. I love writing clear, reusable code and have live open-source projects to share. I'm always learning and improving my craft.";
 
 export const getInTouch = "Get in touch";
 
-export const skills = "Skills"
+export const skills = "Skills";
+
+export const summary = "Summary";
