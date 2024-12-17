@@ -4,7 +4,6 @@ import araratRegionImg from "../../../public/images/araratRegion.webp";
 import chessImg from "../../../public/images/chess.webp";
 import chessEngineImg from "../../../public/images/Chess-Engine.webp";
 import ticTacToeEngineImg from "../../../public/images/tic-tac-toe-engine.webp";
-import sdcImg from "../../../public/images/sdc.webp";
 import getSmsImg from "../../../public/images/getSMS.webp";
 import { IProject } from "../../models/project";
 
