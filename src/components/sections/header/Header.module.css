@@ -8,17 +8,25 @@
   border-bottom: 1px solid var(--border-color);
 }
 
-.logo {
-  font-size: 1.25rem;
-  color: var(--primary);
-}
-
 .menu {
   display: flex;
-  gap: 0.5rem;
+  justify-content: space-between;
   padding-top: 2rem;
   padding-bottom: 2rem;
   align-items: center;
+}
+
+.logoSection,
+.links {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.fullName {
+  font-size: 1.5rem;
+  color: var(--primary);
+  letter-spacing: 2px;
 }
 
 .socialLinks {
@@ -29,40 +37,4 @@
   background-color: transparent;
   border: 1px solid var(--white);
   margin-left: 2.25rem;
-}
-
-@media (max-width: 1023px) {
-  .container {
-    align-items: flex-start;
-  }
-  
-  .menu {
-    display: grid;
-    grid-template-columns: 1fr 150px 150px;
-    gap: 1rem;
-  }
-
-  .socialLinks,
-  .cvButton {
-    margin-left: unset;
-  }
-
-  .socialLinks {
-    justify-content: flex-end;
-  }
-}
-
-@media (max-width: 600px) {
-  .menu {
-    grid-template-columns: 1fr;
-  }
-
-  .socialLinks {
-    justify-content: flex-start;
-  }
-
-  .cvButton {
-    max-width: 100px;
-    margin-left: unset;
-  }
 }
