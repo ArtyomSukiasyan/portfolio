@@ -10,18 +10,6 @@
   align-items: center;
 }
 
-.heroInfo {
-  max-width: 30rem;
-}
-
-.name::before {
-  content: "✋ Hello, my name is";
-  color: rgba(255, 255, 255, 0.5);
-  display: block;
-  font-weight: bold;
-  font-size: 1.125rem;
-}
-
 .name {
   font-size: 3rem;
   font-weight: 900;
