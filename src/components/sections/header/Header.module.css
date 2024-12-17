@@ -16,8 +16,7 @@
   align-items: center;
 }
 
-.logoSection,
-.links {
+.logoSection {
   display: flex;
   gap: 0.5rem;
   align-items: center;
@@ -27,14 +26,4 @@
   font-size: 1.5rem;
   color: var(--primary);
   letter-spacing: 2px;
-}
-
-.socialLinks {
-  margin-left: auto;
-}
-
-.cvButton {
-  background-color: transparent;
-  border: 1px solid var(--white);
-  margin-left: 2.25rem;
 }
