@@ -1,9 +1,3 @@
-.tagsTitle {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
-}
-
 .skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

@@ -5,7 +5,7 @@ import styles from "./LastTechnologies.module.css";
 export default function LastTechnologies() {
   return (
     <div>
-      <h3 className={styles.tagsTitle}>{skills}</h3>
+      <h2>{skills}</h2>
       <div className={styles.skills}>
         {lastTechnologies.map((el) => (
           <div className={styles.tags}>
