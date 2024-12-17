@@ -11,45 +11,13 @@
 }
 
 .heroInfo {
-  max-width: 30rem;
-}
-
-.name::before {
-  content: "✋ Hello, my name is";
-  color: rgba(255, 255, 255, 0.5);
-  display: block;
-  font-weight: bold;
-  font-size: 1.125rem;
-}
-
-.name {
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 3rem;
-}
-
-.skills {
-  padding-top: 0.625rem;
-  color: var(--primary);
-  text-transform: uppercase;
-  font-size: 2.25rem;
-  font-weight: 900;
+  max-width: 540px;
 }
 
 .desc {
-  padding-top: 1rem;
-  font-size: 0.875rem;
+  padding: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
-}
-
-.buttonWrapper {
-  margin-top: 1.5rem;
-}
-
-.contactBtn {
-  background-color: var(--primary);
-  color: var(--black);
 }
 
 @media (max-width: 1023px) {

@@ -1,7 +1,8 @@
-import Button from "../../shared/button/Button";
-import SocialLinks from "../../shared/social-links/SocialLinks";
+import Contact from "../contact/Contact";
 import Container from "../../shared/container/Container";
-import { CV_LINK, CV_Text, fullName } from "../../../constants/config";
+import Img from "../../shared/img/Img";
+import { fullName } from "../../../constants/config";
+import favicon from "../../../../public/images/favicon.png";
 import styles from "./Header.module.css";
 
 export default function Header() {
@@ -9,9 +10,11 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.menuWrapper}>
         <Container className={styles.menu}>
-          <div className={styles.logo}>{fullName}</div>
-          <SocialLinks className={styles.socialLinks} />
-          <Button className={styles.cvButton} href={CV_LINK} text={CV_Text} />
+          <section className={styles.logoSection}>
+            <Img src={favicon} alt="logo" />
+            <p className={styles.fullName}>{fullName}</p>
+          </section>
+          <Contact />
         </Container>
       </div>
     </header>

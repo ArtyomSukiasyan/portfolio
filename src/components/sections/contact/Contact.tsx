@@ -1,24 +1,13 @@
-import { getInTouch } from "../../../constants/previewTexts";
-import { linkedinLink } from "../../../constants/socialLinks";
+import { CV_LINK, CV_Text } from "../../../constants/config";
 import Button from "../../shared/button/Button";
-import Container from "../../shared/container/Container";
+import SocialLinks from "../../shared/social-links/SocialLinks";
 import styles from "./Contact.module.css";
 
 export default function Contact() {
   return (
-    <section className={styles.contactSection}>
-      <Container className={styles.container}>
-        <h2 className={styles.sectionTitle}>
-          Lets build your <br /> project together
-        </h2>
-        <div className={styles.buttonWrapper}>
-          <Button
-            className={styles.contactButton}
-            href={linkedinLink}
-            text={getInTouch}
-          />
-        </div>
-      </Container>
+    <section className={styles.links}>
+      <SocialLinks />
+      <Button className={styles.cvButton} href={CV_LINK} text={CV_Text} />
     </section>
   );
 }

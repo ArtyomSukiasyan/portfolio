@@ -2,8 +2,7 @@ export interface IAboutList {
   title: string;
   role: string;
   date: string;
-  link?: string;
-  type?: string;
+  country?: string;
 }
 
 export interface IAboutItemProps {

@@ -1,5 +1,6 @@
 .projectsSection {
   background-color: var(--background);
+  padding: 8px;
 }
 
 .sectionTitle {
@@ -114,7 +115,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 .moreButton {
