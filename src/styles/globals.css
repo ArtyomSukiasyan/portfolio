@@ -20,6 +20,10 @@ body {
   font-family: "sans-serif" "Inter";
 }
 
+h2 {
+  text-align: center;
+}
+
 a {
   color: inherit;
   text-decoration: none;
