@@ -1,15 +1,14 @@
 .skills {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   margin-top: 1rem;
 }
 
 .tags {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 2rem;
+  align-items: center;
+  grid-template-columns: 1fr;
   padding-top: 1rem;
 }
 
@@ -34,4 +33,10 @@
   position: relative;
   padding-left: 1.75rem;
   text-transform: capitalize;
+}
+
+@media (max-width: 426) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
 }
