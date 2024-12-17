@@ -3,7 +3,7 @@ import { IAboutList } from "../models/aboutItemProps";
 export const EDUCATION: IAboutList[] = [
   {
     title: "Armenian Code Academy",
-    role: "JavaScript BootCamp. A 4-month full-time intensive course",
+    role: "JS BootCamp. A 4-month full-time intensive course",
     date: "2021",
   },
   {

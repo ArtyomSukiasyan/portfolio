@@ -9,7 +9,7 @@ export default function AboutItem({ type, list, className }: IAboutItemProps) {
         {list.map(({ title, date, role, country }) => (
           <div key={`${title}${date}`} className={styles.experienceItem}>
             <div className={styles.experienceTitle}>
-              {title} - {country}
+              {title} {country ? `- ${country}` : ""}
             </div>
             <div className={styles.experienceRole}>{role}</div>
             <div className={styles.experienceDate}>{date}</div>
