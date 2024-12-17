@@ -1,8 +1,8 @@
+import Contact from "../contact/Contact";
 import Container from "../../shared/container/Container";
 import Img from "../../shared/img/Img";
 import { fullName } from "../../../constants/config";
 import favicon from "../../../../public/images/favicon.png";
-import Contact from "../contact/Contact";
 import styles from "./Header.module.css";
 
 export default function Header() {

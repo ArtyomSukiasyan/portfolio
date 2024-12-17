@@ -2,7 +2,6 @@ export interface IAboutList {
   title: string;
   role: string;
   date: string;
-  type?: string;
   country?: string;
 }
 
