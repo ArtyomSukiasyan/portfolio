@@ -35,7 +35,7 @@ export const OPEN_SOURCE_PROJECTS: IProject[] = [
     githubLink: "https://github.com/Chess-Arbiter/handbook",
   },
   {
-    title: "Chess arbiter mobile app (currently is testing)",
+    title: "Chess arbiter mobile app",
     text: "Mobile app for Chess Arbiter",
     image: arbiterMobileImg,
     roles: ["React Native", "Firebase"],
