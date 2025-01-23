@@ -8,10 +8,8 @@ export default function LastTechnologies() {
       <h2>{skills}</h2>
       <div className={styles.skills}>
         {lastTechnologies.map((el) => (
-          <div className={styles.tags}>
-            <span className={styles.tag} key={el}>
-              {el}
-            </span>
+          <div className={styles.tags} key={el}>
+            <span className={styles.tag}>{el}</span>
           </div>
         ))}
       </div>
