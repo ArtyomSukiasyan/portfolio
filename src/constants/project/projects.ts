@@ -12,15 +12,7 @@ export const JOB_PROJECTS: IProject[] = [
     title: "Get SMS",
     text: "Rent a virtual phone number from US to receive unlimited OTP/SMS",
     image: getSmsImg,
-    roles: [
-      "Express",
-      "React",
-      "Mongo",
-      "Docker",
-      "Nginx",
-      "Stripe",
-      "Unit testing",
-    ],
+    roles: [],
     href: "https://get-sms.app",
   },
 ];
