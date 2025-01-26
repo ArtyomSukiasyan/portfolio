@@ -8,5 +8,5 @@ export const lastTechnologies = [
   "React, Next.js",
   "Unit Testing using Jest",
   "Git",
-  "Familiar with: React Native, Expo, Angular, Python, Flask, Tauri",
+  "Familiar with: React Native, Expo, Angular, Python, Flask, Tauri, K6",
 ];
