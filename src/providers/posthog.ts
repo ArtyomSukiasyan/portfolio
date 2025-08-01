@@ -1,7 +1,6 @@
-// app/posthog.js
 import { PostHog } from "posthog-node";
 
-export default function PostHogClient() {
+export default async function PostHogClient() {
   const posthogClient = new PostHog(
     process.env.POSTHOG_KEY as string,
     {
@@ -10,6 +9,8 @@ export default function PostHogClient() {
       flushInterval: 0,
     }
   );
+
+  await posthogClient.shutdown();
 
   return posthogClient;
 }

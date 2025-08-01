@@ -6,7 +6,7 @@ import Contact from "../components/sections/contact/Contact";
 import PostHogClient from "../providers/posthog";
 
 export default async function Home() {
-  const posthog = PostHogClient();
+  const posthog = await PostHogClient();
 
   posthog.capture({
     distinctId: "server",
