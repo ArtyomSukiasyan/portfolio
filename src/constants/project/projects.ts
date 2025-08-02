@@ -7,15 +7,15 @@ import ticTacToeEngineImg from "../../../public/images/tic-tac-toe-engine.webp";
 import getSmsImg from "../../../public/images/getSMS.webp";
 import { IProject } from "../../models/project";
 
-export const JOB_PROJECTS: IProject[] = [
-  {
-    title: "Get SMS",
-    text: "Rent a virtual phone number from US to receive unlimited OTP/SMS",
-    image: getSmsImg,
-    roles: [],
-    href: "https://get-sms.app",
-  },
-];
+// export const JOB_PROJECTS: IProject[] = [
+//   {
+//     title: "Get SMS",
+//     text: "Rent a virtual phone number from US to receive unlimited OTP/SMS",
+//     image: getSmsImg,
+//     roles: [],
+//     href: "https://get-sms.app",
+//   },
+// ];
 
 export const OPEN_SOURCE_PROJECTS: IProject[] = [
   {
