@@ -7,12 +7,12 @@ export default function About() {
   return (
     <section className={styles.about}>
       <Container className={styles.container}>
+        <AboutItem className={styles.work} type="Work Experience" list={WORK} />
         <AboutItem
           className={styles.education}
           type="Education"
           list={EDUCATION}
         />
-        <AboutItem className={styles.work} type="Work Experience" list={WORK} />
       </Container>
     </section>
   );
