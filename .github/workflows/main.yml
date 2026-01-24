@@ -23,11 +23,10 @@ jobs:
         password: ${{ secrets.REGISTRY_PASSWORD }}
 
 
-    - name: Copy .env.prod to .env
+    - name: Decode production env file
       if: github.ref == 'refs/heads/main'
       run: |
-        echo  ${{ secrets.POSTHOG_HOST }} >> .env
-        echo  ${{ secrets.POSTHOG_KEY }} >> .env
+          echo ${{ secrets.ENV_PRODUCTION }} | base64 -d > .env
  
     - name: Production Deploy
       if: github.ref == 'refs/heads/main'
