@@ -12,5 +12,5 @@ export const lastTechnologies = [
   "Unit Testing, E2E Testing",
   "React, Next.js",
   "Git",
-  "Familiar with: React Native, Expo, Angular, Vue, Python, Flask, Tauri, K6",
+  "React Native, Expo, Angular, Vue, Python, Flask, Tauri, K6, Twilio, TextGrid",
 ];
