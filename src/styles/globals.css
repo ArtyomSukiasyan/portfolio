@@ -17,7 +17,9 @@ body,
 }
 
 body {
-  font-family: "sans-serif" "Inter";
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-base);
 }
 
 h2 {
@@ -31,8 +33,8 @@ a {
 
 button,
 .btn {
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-base);
   padding: 1rem 2.5rem;
   border-radius: 1.5rem;
 }
@@ -58,8 +60,8 @@ button,
 
   button,
   .btn {
-    font-weight: 700;
-    font-size: 1rem;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-base);
     padding: 0.5rem 1.25rem;
     border-radius: 0.5rem;
   }

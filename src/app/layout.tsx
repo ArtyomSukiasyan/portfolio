@@ -1,6 +1,13 @@
 import { descriptionContent, domain, fullName } from "../constants/config";
 import "../styles/globals.css";
 import "../styles/theme.css";
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata = {
   title: fullName,
@@ -21,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <link
         rel="shortcut icon"
         href="/images/favicon.png"
