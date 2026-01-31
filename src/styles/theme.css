@@ -1,6 +1,7 @@
 :root {
   --primary: #e45d30;
   --primary-alpha: #f8a68a;
+  --primary-hover: #d54d20;
   --white: #ffffff;
   --black: #121214;
   --blue: #4a90e2;
@@ -9,6 +10,9 @@
   --background: #1a1a1a;
   --dark-background: #141414;
   --border-color: rgba(255, 255, 255, 0.1);
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.8);
+  --text-muted: rgba(255, 255, 255, 0.6);
 
   --font-family-primary: var(--font-inter), sans-serif;
   --font-weight-normal: 400;
