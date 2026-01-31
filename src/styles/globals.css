@@ -17,7 +17,10 @@ body,
 }
 
 body {
-  font-family: "sans-serif" "Inter";
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-base);
+  color: var(--text-primary);
 }
 
 h2 {
@@ -31,10 +34,17 @@ a {
 
 button,
 .btn {
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-base);
   padding: 1rem 2.5rem;
   border-radius: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+button:hover,
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(228, 93, 48, 0.3);
 }
 
 .container {
@@ -58,9 +68,16 @@ button,
 
   button,
   .btn {
-    font-weight: 700;
-    font-size: 1rem;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-base);
     padding: 0.5rem 1.25rem;
     border-radius: 0.5rem;
+    transition: all 0.2s ease;
+  }
+
+  button:hover,
+  .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(228, 93, 48, 0.3);
   }
 }

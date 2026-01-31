@@ -14,7 +14,9 @@ export default function Header() {
             <Img src={favicon} alt="logo" />
             <p className={styles.fullName}>{fullName}</p>
           </section>
-          <Contact />
+          <nav>
+            <Contact />
+          </nav>
         </Container>
       </div>
     </header>

@@ -16,8 +16,8 @@
 
 .desc {
   padding: 1rem;
-  font-weight: 700;
-  line-height: 1.5rem;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-base);
 }
 
 @media (max-width: 1023px) {

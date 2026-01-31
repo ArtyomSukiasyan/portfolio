@@ -4,25 +4,22 @@ import araratRegionImg from "../../../public/images/araratRegion.webp";
 import chessImg from "../../../public/images/chess.webp";
 import chessEngineImg from "../../../public/images/Chess-Engine.webp";
 import ticTacToeEngineImg from "../../../public/images/tic-tac-toe-engine.webp";
-import getSmsImg from "../../../public/images/getSMS.webp";
 import { IProject } from "../../models/project";
 
-// export const JOB_PROJECTS: IProject[] = [
-//   {
-//     title: "Get SMS",
-//     text: "Rent a virtual phone number from US to receive unlimited OTP/SMS",
-//     image: getSmsImg,
-//     roles: [],
-//     href: "https://get-sms.app",
-//   },
-// ];
-
 export const OPEN_SOURCE_PROJECTS: IProject[] = [
+  {
+    title: "Ararat region chess federation official website",
+    text: "The official website of the Ararat Region Chess Federation.",
+    image: araratRegionImg,
+    roles: ["Strapi (Koa + React)", "MySQL", "NextJs", "Docker", "Nginx"],
+    href: "https://ararat.chessnews.am/",
+    githubLink: "https://github.com/Ararat-chess-federation/website",
+  },
   {
     title: "Chess Arbiter",
     text: "Everything you need to know about playing chess. Available in multiple languages",
     image: arbiterImg,
-    roles: ["NextJs", "Firebase"],
+    roles: ["NextJs"],
     href: "https://chessarbiter.info/",
     githubLink: "https://github.com/Chess-Arbiter/handbook",
   },
@@ -30,17 +27,9 @@ export const OPEN_SOURCE_PROJECTS: IProject[] = [
     title: "Chess arbiter mobile app",
     text: "Mobile app for Chess Arbiter",
     image: arbiterMobileImg,
-    roles: ["React Native", "Firebase"],
+    roles: ["React Native"],
     href: "https://play.google.com/store/apps/details?id=com.chess_arbiter.chessarbitermobile",
     githubLink: "https://github.com/Chess-Arbiter/mobile",
-  },
-  {
-    title: "Ararat region chess federation official website",
-    text: "The official website of the Ararat Region Chess Federation. My gift to the federation.",
-    image: araratRegionImg,
-    roles: ["Strapi (Koa + React)", "MySQL", "NextJs", "Docker", "Nginx"],
-    href: "https://ararat.chessnews.am/",
-    githubLink: "https://github.com/Ararat-chess-federation/website",
   },
 ];
 
