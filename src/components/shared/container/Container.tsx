@@ -1,4 +1,4 @@
-import { IContainerProps } from "../../../models/containerProps";
+import type { IContainerProps } from "../../../models/containerProps";
 
 export default function Container({
   className = "",

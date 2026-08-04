@@ -1,4 +1,4 @@
-import { IAboutItemProps } from "../../../models/aboutItemProps";
+import type { IAboutItemProps } from "../../../models/aboutItemProps";
 import styles from "./AboutItem.module.css";
 
 export default function AboutItem({ type, list, className }: IAboutItemProps) {

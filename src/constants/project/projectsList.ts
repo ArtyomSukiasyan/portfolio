@@ -1,4 +1,4 @@
-import { IProject } from "../../models/project";
+import type { IProject } from "../../models/project";
 import { FUN_PROJECTS,  OPEN_SOURCE_PROJECTS } from "./projects";
 import {
   freeTimeText,
