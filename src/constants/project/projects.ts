@@ -4,7 +4,7 @@ import araratRegionImg from "../../../public/images/araratRegion.webp";
 import chessImg from "../../../public/images/chess.webp";
 import chessEngineImg from "../../../public/images/Chess-Engine.webp";
 import ticTacToeEngineImg from "../../../public/images/tic-tac-toe-engine.webp";
-import { IProject } from "../../models/project";
+import type { IProject } from "../../models/project";
 
 export const OPEN_SOURCE_PROJECTS: IProject[] = [
   {

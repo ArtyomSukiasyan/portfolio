@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { IImgProps } from "../../../models/imgProps";
+import type { IImgProps } from "../../../models/imgProps";
 import styles from "./Img.module.css";
 
 export default function Img({

@@ -1,5 +1,5 @@
 import { sourceCode, visitSite } from "../../../constants/project/projectTexts";
-import { IProject } from "../../../models/project";
+import type { IProject } from "../../../models/project";
 import Button from "../../shared/button/Button";
 import Img from "../../shared/img/Img";
 import styles from "./Projects.module.css";

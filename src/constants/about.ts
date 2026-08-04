@@ -1,4 +1,4 @@
-import { IAboutList } from "../models/aboutItemProps";
+import type { IAboutList } from "../models/aboutItemProps";
 
 export const EDUCATION: IAboutList[] = [
   {
