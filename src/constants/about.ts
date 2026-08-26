@@ -26,6 +26,12 @@ export const WORK: IAboutList[] = [
     country: "UAE",
   },
   {
+    title: "Gambits GmbH",
+    role: "Backend JavaScript Engineer (Senior)",
+    date: "2025-2026",
+    country: "Germany",
+  },
+  {
     title: "PBL consultancy",
     role: "JavaScript Engineer (Middle)",
     date: "2023-2024",

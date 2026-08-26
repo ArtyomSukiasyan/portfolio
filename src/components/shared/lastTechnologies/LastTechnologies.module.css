@@ -1,41 +1,39 @@
 .skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  gap: 1.5rem;
   margin-top: 1rem;
 }
 
+.categoryTitle {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-primary);
+  border-left: 2px solid var(--primary);
+  padding-left: 0.5rem;
+  margin: 0 0 0.6rem;
+}
+
 .tags {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr;
-  padding-top: 1rem;
-}
-
-.tag::before,
-.tag::after {
-  position: absolute;
-  left: 0;
-  top: calc(50% - 6px);
-  width: 0.75rem;
-  height: 0.75rem;
-  content: "";
-  border-radius: 50%;
-  background-color: var(--primary);
-}
-
-.tag::after {
-  background-color: var(--primary-alpha);
-  left: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
 .tag {
-  position: relative;
-  padding-left: 1.75rem;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--primary-alpha);
+  background-color: var(--primary-alpha);
+  color: var(--black);
   text-transform: capitalize;
+  white-space: nowrap;
 }
 
-@media (max-width: 426) {
+@media (max-width: 426px) {
   .skills {
     grid-template-columns: 1fr;
   }

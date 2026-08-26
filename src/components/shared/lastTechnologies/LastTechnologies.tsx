@@ -7,9 +7,14 @@ export default function LastTechnologies() {
     <div>
       <h2>{skills}</h2>
       <div className={styles.skills}>
-        {lastTechnologies.map((el) => (
-          <div className={styles.tags} key={el}>
-            <span className={styles.tag}>{el}</span>
+        {Object.entries(lastTechnologies).map(([category, items]) => (
+          <div key={category}>
+            <p className={styles.categoryTitle}>{category}</p>
+            <div className={styles.tags}>
+              {items.map((item) => (
+                <span className={styles.tag} key={item}>{item}</span>
+              ))}
+            </div>
           </div>
         ))}
       </div>
